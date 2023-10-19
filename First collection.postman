@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "f23f5406-d213-4733-9a59-833422f01091",
+		"name": "First collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27058374"
+	},
+	"item": [
+		{
+			"name": "Dossier GET",
+			"item": [
+				{
+					"name": "Get users",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://reqres.in/api/users",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Dossier POST",
+			"item": [
+				{
+					"name": "Post users",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://reqres.in/api/users",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users"
+							]
+						},
+						"description": "création d'un user"
+					},
+					"response": []
+				},
+				{
+					"name": "unique_users",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://reqres.in/api/users",
+							"protocol": "https",
+							"host": [
+								"reqres",
+								"in"
+							],
+							"path": [
+								"api",
+								"users"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "dossier pour ds requetes post"
+		}
+	]
+}
